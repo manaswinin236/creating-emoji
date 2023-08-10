@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lilita+One&display=swap');
+
+
+h1{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+}
+
+body{
+    background : lightyellow
+}
+.emoji-face{
+    background-color: orange ;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 2px 0px 2px 2px rgba(0,0,0,0.07);
+    position: relative;
+    
+   
+}
+
+.eye1{
+    background-color: rgb(12, 12, 12);
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.eye2{
+    background-color: rgb(13, 13, 13);
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    border-radius :50% ;
+   
+    
+}
+
+    
+.mouth{
+    background-color: orangered;
+    height: 40px;
+    width: 70px;
+    border-radius: 0 0 90px 90px;
+    position: relative;
+    top: 52px;
+    left: 16px;
+    z-index: 1;
+    overflow: hidden;
+}
+.tongue{
+    background-color: red;
+    width: 40px;
+    height: 35px;
+    border-radius: 40%;
+    position: absolute;
+    top: 20%;
+    left: 15px;
+    z-index: 2;
+}
+.mouth-shock{
+    background-color: orangered;
+    height: 30px;
+    width: 30px;
+    border-radius: 500px 500px 500px 500px ;
+    position: relative;
+    top: 52px;
+    left: 35px;
+    z-index: 1;
+    overflow: hidden;
+}
+.mouth-speechless{
+    background-color: orangered;
+    height: 5px;
+    width: 70px;
+    border-radius: 0 0 0px 0px;
+    position: relative;
+    top: 60px;
+    left: 16px;
+    z-index: 1;
+    overflow: hidden;
+}
+.emoji-face{ 
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+/*fixing the emoji*/
+.wrapper{
+    position: absolute;
+    top: 150px;
+    left: 575px;
+}
+
+#heading{
+    text-align: center;
+    font-size: 4em;
+}
+h1{
+    font-size: 2em;
+}
+p{
+    font-size: 1.5em;
+}
+.emoji-face:hover{
+    background: rgb(239, 176,3);
+    transform: scale(1.25);
+}
+.write-up{
+    background-color: peru;
+    padding: 5% 10%;
+    text-align: cantre;
+    border-radius: 20px;
+}
